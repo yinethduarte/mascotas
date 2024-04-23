@@ -5,9 +5,9 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   background-color: #704264;
-  height: 100px;
+  padding: 1%;
 }
 
 h1 {
@@ -43,4 +43,14 @@ ul {
   display: block;
   margin: 0 auto 50px;
   border-radius: 10px;
+}
+
+.home {
+  padding: 10px 20px;
+  background-color: #bb8493;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
 }

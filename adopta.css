@@ -1,0 +1,36 @@
+body {
+  background-color: #bb8493;
+  margin: 0;
+  padding-left: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: pink;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 2%;
+}
+
+.imagenes {
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+
+  object-fit: cover;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #704264;
+}
+
+.home {
+  padding: 10px 20px;
+  background-color: #704264;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}

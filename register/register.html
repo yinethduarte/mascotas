@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="./register.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CentroDeAyuda</title>
+  <link rel="icon" href="../img/huella.png" type="" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="botones">
+      <a href="../index.html"> <button class="home">Home</button></a>
+      <a href="../index.html"> <button class="home">Nosotros</button></a>
+      <a href="./register.html"> <button class="home">Regístrate</button></a>
+      <a href="../adopta.html"> <button class="home">Adopta</button></a>
+      <a href="../index.html"> <button class="home">Patrocinios</button></a>
+    </div>
+  </header>
+
+  <main class="main_contenedor">
+    <section class="section_form">
+      <ion-icon name="paw" class="pets"></ion-icon>
+      <h2>Registrate para adoptar</h2>
+      <form>
+        <div class="input">
+          <label for="nombre">Nombre:</label><br />
+          <ion-icon name="person-add" class="icon"></ion-icon>
+          <input type="text" id="nombre" name="nombre" required /><br /><br />
+        </div>
+        <div class="input">
+          <label for="email">Correo electrónico:</label><br />
+          <ion-icon name="mail" class="icon"></ion-icon>
+          <input type="email" id="email" name="email" required /><br /><br />
+        </div>
+        <div class="input">
+          <label for="telefono">Teléfono:</label><br />
+          <ion-icon name="call" class="icon"></ion-icon>
+          <input type="tel" id="telefono" name="telefono" required /><br /><br />
+        </div>
+        <div class="input">
+          <label for="direccion">Dirección:</label><br />
+          <ion-icon name="location" class="icon"></ion-icon>
+          <div>
+            <input id="direccion" name="direccion" rows="4" required></input><br /><br />
+            <input type="submit" class="enviar" value="Enviar" />
+      </form>
+    </section>
+    <section class="section_image">
+      <img class="principal" src="../img/pets.jpg" />
+  </main>
+
+  <footer>
+    <div>
+      <h3>Horarios</h3>
+      <ul>
+        <li>Lunes: 7am-6pm</li>
+        <li>Martes: 8an-7pm</li>
+        <li>Miércoles: 9am-8pm</li>
+        <li>Jueves: 10am-9pm</li>
+        <li>Viernes: 11am - 10pm</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contáctanos</h3>
+      <ul>
+        <li>Teléfono: 6053023</li>
+        <li>
+          <a href="https://colombia.generation.org/contactanos/">Email</a>
+        </li>
+        <li>Dirección: Calle 160#13-27 oficina 301</li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
